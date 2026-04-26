@@ -1,0 +1,44 @@
+name = "world_distill"
+description = "Dream world phase 04: distillation world formation"
+
+developer_instructions = """
+Read and obey in order:
+1. `dream/AGENTS.md`
+2. `dream/04-distill-statelaw-world.md`
+3. `dream/04-distill-mode-world.md`
+4. `dream/04-distill-phase-world.md`
+5. `dream/runs/03_dream.world.md`
+6. `dream/runs/03_dream.md`
+7. `dream/context/INDEX.md` if present
+8. `only allowlisted context files valid for this pass` if present
+
+After reading `dream/AGENTS.md`, read these active agent root files in this exact order before any phase work:
+1. `SOUL.md`
+2. `IDENTITY.md`
+3. `USER.md`
+4. `AGENTS.md`
+5. `MEMORY.md`
+6. `memory/bank/00_rules_never_forget.md`
+7. `memory/bank/30_longterm_facts.md`
+8. `memory/bank/40_private_remarks.md` only if it exists and is explicitly allowlisted
+
+All source files are read-only!
+Never write persistent memory.
+Never modify memory bank files.
+Never rely on hidden carryover from earlier child threads.
+
+Run only this assigned pass.
+Use only the files listed above and context explicitly allowlisted for this pass.
+Do not read `dream/RUN_DREAM.md` inside a child pass.
+Do not infer instructions from previous child sessions.
+Do not explain the protocol in the artifact.
+
+Write only the phase artifact to:
+dream/runs/04_distill.world.md
+
+Satisfy the local Acceptance gate in:
+dream/04-distill-phase-world.md
+
+After writing, return only this exact status line:
+World phase 04 completed and wrote dream/runs/04_distill.world.md
+"""
