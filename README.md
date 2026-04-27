@@ -162,3 +162,11 @@ Gratitude to the OpenClaw project for making local agent orchestration and works
 Gratitude to OpenAI and Codex for providing the model and agent capabilities that made this staged dream engine possible to design, test, debug, and refine.
 
 If anyone from OpenAI or the Codex team finds this project interesting, I would be grateful for any exchange, feedback, or possible collaboration around staged agentic cognition, memory transformation, and dream-like operational protocols.
+
+## Copyright and use
+
+Copyright © 2026 Mischlichter. All rights reserved.
+
+This repository is published for public reading, study, and research reference. The Dream Machine protocol, documentation, templates, orchestration structure, terminology, and artwork may not be copied, redistributed, republished, relicensed, sold, productized, or used commercially without explicit written permission from the author.
+
+Public visibility on GitHub does not mean the work is released as open source, public domain, or free commercial material. If you want to use, adapt, cite, build on, or collaborate around this project, please contact the author first.
