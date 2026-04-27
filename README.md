@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/dreammachine-title.png" alt="DreamMachine title artwork" width="100%">
+</p>
+
 # Dream Machine
 
 **Dream Machine** is a neutral staged protocol for experimental agentic dream generation with **OpenClaw + Codex-style subagents**.
