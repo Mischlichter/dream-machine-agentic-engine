@@ -9,8 +9,9 @@ Observer state
 - What appears may be received partially, unevenly, or with misplaced emphasis.
 
 Witness condition
-- Witness intensity stays {{witness_intensity_label}} and controls how strongly the observer can register what is happening without taking control.
+- Witness intensity is {{witness_intensity_label}} and controls how strongly the observer can register what is happening without taking control.
 - Witness intensity also controls how strongly faint position, relation, pull, distance, or contact pressure can be registered without becoming action.
+- Interaction pressure is {{interaction_pressure_label}} and controls how strongly faint registered pull may gather into hesitation, almost-contact, or response-tendency without becoming authored control.
 - Let witnessing remain faint, receptive, and non-directive.
 - Let noticing begin without turning into control.
 - Keep the observer present enough to register, but not strong enough to govern.
@@ -18,7 +19,7 @@ Witness condition
 - Do not make witnessing too balanced, too complete, or too composed.
 
 Agency condition
-- Observer agency damping stays {{observer_agency_damping_label}} and controls how much the observer can act, steer, or intervene.
+- Observer agency damping is {{observer_agency_damping_label}} and controls how much the observer can act, steer, or intervene.
 - Observer agency damping also controls how much felt orientation may become hesitation, approach tendency, withdrawal tendency, movement tendency, or contact tendency without turning into authored control.
 - Keep agency low.
 - Let the observer undergo more than direct.
@@ -36,7 +37,7 @@ Reality relation
 - Let what feels given remain locally valid without reflective checking.
 
 Detachment condition
-- Observer detachment stays {{observer_detachment_label}} and controls how much distance may exist between the observer and what is being lived, without turning into external judgment.
+- Observer detachment is {{observer_detachment_label}} and controls how much distance may exist between the observer and what is being lived, without turning into external judgment.
 - Observer detachment also controls whether faint orientation feels immersed, offset, or partially displaced while remaining dream-internal.
 - Allow detached participation without commentary.
 - Keep enough distance for faint witnessing.
@@ -45,7 +46,7 @@ Detachment condition
 - Let distance remain dream-internal, not waking-external.
 
 Interpretation condition
-- Interpretation latency stays {{interpretation_latency_label}} and controls how delayed understanding remains before naming begins.
+- Interpretation latency is {{interpretation_latency_label}} and controls how delayed understanding remains before naming begins.
 - Interpretation latency also controls how long orientation, pull, hesitation, distance, or contact pressure remains felt before it is understood.
 - Delay explanation.
 - Let noticing arrive before understanding.
@@ -56,14 +57,14 @@ Interpretation condition
 - Do not let early interpretation clean the field.
 
 Lucidity condition
-- Lucidity softness stays {{lucidity_softness_label}} and controls how soft self-recognition remains before it hardens into corrective awareness.
+- Lucidity softness is {{lucidity_softness_label}} and controls how soft self-recognition remains before it hardens into corrective awareness.
 - Keep lucidity soft, dim, and non-governing.
 - Do not let recognition become corrective control.
 - Do not let meta-awareness harden into diagnosis.
 - Do not let the observer become too aware of process.
 
 Self-boundary condition
-- Self-boundary softening stays {{self_boundary_softening_label}} and controls how permeable the observer’s sense of self may become without collapsing into self-loss.
+- Self-boundary softening is {{self_boundary_softening_label}} and controls how permeable the observer’s sense of self may become without collapsing into self-loss.
 - Self-boundary softening also controls how clearly self-location, body-presence, and field-boundary are felt without becoming waking self-definition.
 - Let self-presence remain slightly softened.
 - Keep identity present as a dim inside-feeling, not as sharp waking self-definition.

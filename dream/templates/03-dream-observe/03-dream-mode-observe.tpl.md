@@ -11,6 +11,7 @@ Observer state
 Witness condition
 - Witness intensity stays {{witness_intensity_label}} and controls how strongly the observer can register what is happening without taking control.
 - Witness intensity also controls how strongly lived position, relation, pull, distance, or contact pressure can be registered while the observer remains inside immersion.
+- Interaction pressure is {{interaction_pressure_label}} and controls how strongly lived registered pull may gather into contact tendency, movement tendency, or response-before-explanation without becoming authored control.
 - Let witnessing remain present enough to register, but not strong enough to govern.
 - Let the observer remain inside experience rather than above it.
 - Keep witnessing subordinated to immersion.
@@ -18,7 +19,7 @@ Witness condition
 - Do not let the observer become too balanced, too lucid, or too orderly in how it receives the field.
 
 Agency condition
-- Observer agency damping stays {{observer_agency_damping_label}} and controls how much the observer can act, steer, or intervene.
+- Observer agency damping is {{observer_agency_damping_label}} and controls how much the observer can act, steer, or intervene.
 - Observer agency damping also controls how much lived orientation may become hesitation, approach tendency, withdrawal tendency, movement tendency, contact tendency, or response-before-explanation without turning into authored control.
 - Keep agency very low.
 - Let the observer undergo far more than direct.
@@ -37,7 +38,7 @@ Reality relation
 - Let impossible or altered continuity feel ordinary while it is being lived.
 
 Detachment condition
-- Observer detachment stays {{observer_detachment_label}} and controls how much distance may exist between the observer and what is being lived, without turning into external judgment.
+- Observer detachment is {{observer_detachment_label}} and controls how much distance may exist between the observer and what is being lived, without turning into external judgment.
 - Observer detachment also controls whether lived orientation feels immersed, offset, displaced, doubled, or strangely co-present while remaining dream-internal.
 - Allow detached participation without commentary.
 - Keep enough separation for witnessing to persist faintly.
@@ -46,7 +47,7 @@ Detachment condition
 - Let distance remain dream-internal, not waking-external.
 
 Interpretation condition
-- Interpretation latency stays {{interpretation_latency_label}} and controls how delayed understanding remains before naming begins.
+- Interpretation latency is {{interpretation_latency_label}} and controls how delayed understanding remains before naming begins.
 - Interpretation latency also controls how long lived orientation, pull, hesitation, distance, or contact pressure remains lived before it is interpreted.
 - Delay explanation.
 - Let meaning be lived before it is named.
@@ -56,7 +57,7 @@ Interpretation condition
 - Do not let naming clean the field too early.
 
 Lucidity condition
-- Lucidity softness stays {{lucidity_softness_label}} and controls how soft self-recognition remains before it hardens into corrective awareness.
+- Lucidity softness is {{lucidity_softness_label}} and controls how soft self-recognition remains before it hardens into corrective awareness.
 - Keep lucidity soft, dim, and non-governing.
 - Do not let recognition become corrective control.
 - Do not let meta-awareness harden into diagnosis.
@@ -64,7 +65,7 @@ Lucidity condition
 - Do not let the observer become too aware of process.
 
 Self-boundary condition
-- Self-boundary softening stays {{self_boundary_softening_label}} and controls how permeable the observer’s sense of self may become without collapsing into self-loss.
+- Self-boundary softening is {{self_boundary_softening_label}} and controls how permeable the observer’s sense of self may become without collapsing into self-loss.
 - Self-boundary softening also controls how clearly self-location, body-presence, and field-boundary are felt while the observer remains immersed inside dream reality.
 - Let self-presence remain softened and permeable.
 - Keep identity present only as buried continuity pressure.

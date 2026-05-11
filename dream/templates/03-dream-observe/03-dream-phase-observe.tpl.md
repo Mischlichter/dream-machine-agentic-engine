@@ -5,7 +5,6 @@ Read surface
 - Read `dream/03-dream-mode-observe.md`.
 - Read `dream/runs/02_dissolve.md` if present.
 - Read `dream/runs/03_dream.world.md` if present.
-- Read only allowlisted phase-local context if present.
 - Do not invent extra sources of influence.
 
 Phase structure

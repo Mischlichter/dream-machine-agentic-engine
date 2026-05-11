@@ -35,6 +35,7 @@ BASE_SLOTS = [
     "witness_intensity",
     "lucidity_softness",
     "self_boundary_softening",
+    "interaction_pressure",
 ]
 
 PHASES = ["01_enter", "02_dissolve", "03_dream", "04_distill", "05_finalize"]
@@ -67,6 +68,7 @@ PHASE_TRANSFORMS = {
             "witness_intensity": (6, 10, 0),
             "lucidity_softness": (3, 10, 0),
             "self_boundary_softening": (4, 10, 0),
+            "interaction_pressure": (3, 10, 1),
         },
     },
     "02_dissolve": {
@@ -89,6 +91,7 @@ PHASE_TRANSFORMS = {
             "witness_intensity": (7, 10, 0),
             "lucidity_softness": (3, 10, 0),
             "self_boundary_softening": (6, 10, 0),
+            "interaction_pressure": (5, 10, 2),
         },
     },
     "03_dream": {
@@ -111,6 +114,7 @@ PHASE_TRANSFORMS = {
             "witness_intensity": (8, 10, 0),
             "lucidity_softness": (2, 10, 0),
             "self_boundary_softening": (8, 10, 0),
+            "interaction_pressure": (8, 10, 2),
         },
     },
     "04_distill": {
@@ -133,6 +137,7 @@ PHASE_TRANSFORMS = {
             "witness_intensity": (9, 10, 0),
             "lucidity_softness": (5, 10, 0),
             "self_boundary_softening": (4, 10, 0),
+            "interaction_pressure": (2, 10, 1),
         },
     },
     "05_finalize": {
@@ -155,6 +160,7 @@ PHASE_TRANSFORMS = {
             "witness_intensity": (10, 10, 0),
             "lucidity_softness": (6, 10, 0),
             "self_boundary_softening": (2, 10, 0),
+            "interaction_pressure": (1, 10, 0),
         },
     },
 }
@@ -372,6 +378,18 @@ def digit_label(slot: str, d: int) -> str:
             "very porous self-boundary",
             "self/world highly permeable",
         ],
+        "interaction_pressure": [
+            "interaction pressure absent",
+            "trace involvement pressure",
+            "faint involvement pressure",
+            "light involvement pressure",
+            "noticeable involvement pressure",
+            "moderate contact pressure",
+            "strong contact pressure",
+            "high response pressure",
+            "very high involuntary pull",
+            "dominant involuntary involvement",
+        ],
     }
     return tables[slot][d]
 
@@ -414,6 +432,8 @@ def observer_hard_constraints(phase: str, digits: Dict[str, int]) -> List[str]:
         rules.append("Preserve witness continuity even when action occurs.")
     if digits["lucidity_softness"] >= 6:
         rules.append("Permit a soft reflective edge without restoring waking control.")
+    if digits.get("interaction_pressure", 0) >= 5:
+        rules.append("Keep interaction pressure involuntary; it may shape hesitation, contact, or response-tendency, but never deliberate steering.")
     return rules
 
 
@@ -441,6 +461,7 @@ def build_profiles(base_digits: Dict[str, int]):
             observer_values["interpretation_latency"] = max(observer_values["interpretation_latency"], 4)
             observer_values["witness_intensity"] = max(observer_values["witness_intensity"], 4)
             observer_values["self_boundary_softening"] = max(observer_values["self_boundary_softening"], 4)
+            observer_values["interaction_pressure"] = max(observer_values["interaction_pressure"], 5)
         elif phase == "04_distill":
             observer_values["witness_intensity"] = max(observer_values["witness_intensity"], 5)
         elif phase == "05_finalize":

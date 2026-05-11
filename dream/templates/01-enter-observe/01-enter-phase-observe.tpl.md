@@ -4,7 +4,6 @@ Read surface
 - Read `dream/01-enter-statelaw-observe.md`.
 - Read `dream/01-enter-mode-observe.md`.
 - Read `dream/runs/01_enter.world.md` if present.
-- Read only allowlisted phase-local context if present.
 - Do not invent extra sources of influence.
 
 Phase structure

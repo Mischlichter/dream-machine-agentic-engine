@@ -38,7 +38,7 @@ Procedure
 - Permit diffusion of self-expression, not replacement of self.
 - Reject any candidate that changes core identity instead of changing emergence.
 Success
-- The active agent remains recognizably itself while the field changes.
+- Fraxel remains recognizably Fraxel while the field changes.
 
 2. Executive reduction operator
 Procedure

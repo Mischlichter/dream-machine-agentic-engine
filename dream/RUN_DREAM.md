@@ -5,7 +5,8 @@ The parent session remains the active agent. The orchestrator is explicitly aske
 
 Execution law
 - Run passes in this exact order.
-- Spawn exactly one fresh child subagent for each pass.
+- Give each child session a name and keep them open till the end of the full protocol.
+- Spawn exactly one fresh child subagent for each pass 
 - Never parallelize passes.
 - Wait for each child to finish completely.
 - Treat the file written under `dream/runs/` as the source of truth for that pass artifact.
@@ -15,14 +16,14 @@ Execution law
 - Stop immediately if any pass fails or if an expected prior run file is missing or empty.
 
 Pre-build step
-1. Archive existing run artifacts from `dream/runs/` into a new timestamped folder under `dream/runs/archive/`.
+1. If `dream/runs/` contains files from a previous session, create the next sequential archive folder under `dream/runs/archive/` using the existing `dream_<number>` naming pattern, then move those files into it without overwriting any existing archive folder. If no previous-session files exist, continue to the next step.
 2. Execute `dream/bin/fetch_seed.sh` 
 3. Wait until it finishes completely.
 4. Do not begin any phase before `dream/bin/fetch_seed.sh` has finished successfully.
 5. If it fails, stop immediately and report the failure.
 
-Read law per pass
-Each pass must read and obey in this order:
+Read law per pass world
+Each worldside pass must read and obey in this order:
 1. `dream/AGENTS.md`
 2. its own matching `statelaw` file
 3. its own matching `mode` file
@@ -31,12 +32,20 @@ Each pass must read and obey in this order:
 6. `dream/context/INDEX.md` if present
 7. only allowlisted context files valid for that pass
 
+Read law per pass observer
+Each observerside pass must read and obey in this order:
+1. `dream/AGENTS.md`
+2. its own matching `statelaw` file
+3. its own matching `mode` file
+4. its own matching `phase` file
+5. only the allowed carry-forward artifacts for that pass
+
 Pre-run checks
 1. Ensure `dream/runs/` exists.
 2. Ensure `dream/state/` exists.
 3. Remove or archive stale pass outputs unless intentionally resuming a failed run.
 4. If `dream/context/INDEX.md` exists, use it as the only allowlist for passive context.
-5. If `dream/context/session_anchor.md` exists and is allowlisted, treat it as optional active-agent drift input, not semantic dream content.
+5. If `dream/context/session_anchor.md` exists and is allowlisted, treat it as supporting drift identity input, not semantic context.
 6. Treat operator or task framing as boundary-only after initialization.
 
 Compiled pass expectations
@@ -91,6 +100,8 @@ Exact sequence
    - Read `dream/01-enter-statelaw-world.md`.
    - Read `dream/01-enter-mode-world.md`.
    - Read `dream/01-enter-phase-world.md`.
+   - Read `dream/context/INDEX.md`.
+   - Read only allowlisted context files valid for this pass.
    - Write the world artifact to `dream/runs/01_enter.world.md`.
 
 2. Verify `dream/runs/01_enter.world.md` exists, is non-empty, and satisfies the local Acceptance gate in `dream/01-enter-phase-world.md`.
@@ -112,6 +123,8 @@ Exact sequence
    - Read `dream/02-dissolve-phase-world.md`.
    - Read `dream/runs/01_enter.world.md`.
    - Read `dream/runs/01_enter.md`.
+   - Read `dream/context/INDEX.md`.
+   - Read only allowlisted context files valid for this pass.
    - Write the world artifact to `dream/runs/02_dissolve.world.md`.
 
 6. Verify `dream/runs/02_dissolve.world.md` exists, is non-empty, and satisfies the local Acceptance gate in `dream/02-dissolve-phase-world.md`.
@@ -134,6 +147,8 @@ Exact sequence
    - Read `dream/03-dream-phase-world.md`.
    - Read `dream/runs/02_dissolve.world.md`.
    - Read `dream/runs/02_dissolve.md`.
+   - Read `dream/context/INDEX.md`.
+   - Read only allowlisted context files valid for this pass.
    - Write the world artifact to `dream/runs/03_dream.world.md`.
 
 10. Verify `dream/runs/03_dream.world.md` exists, is non-empty, and satisfies the local Acceptance gate in `dream/03-dream-phase-world.md`.
@@ -156,6 +171,8 @@ Exact sequence
    - Read `dream/04-distill-phase-world.md`.
    - Read `dream/runs/03_dream.world.md`.
    - Read `dream/runs/03_dream.md`.
+   - Read `dream/context/INDEX.md`.
+   - Read only allowlisted context files valid for this pass.
    - Write the world artifact to `dream/runs/04_distill.world.md`.
 
 14. Verify `dream/runs/04_distill.world.md` exists, is non-empty, and satisfies the local Acceptance gate in `dream/04-distill-phase-world.md`.
@@ -178,6 +195,8 @@ Exact sequence
    - Read `dream/05-finalize-phase-world.md`.
    - Read `dream/runs/04_distill.world.md`.
    - Read `dream/runs/04_distill.md`.
+   - Read `dream/context/INDEX.md`.
+   - Read only allowlisted context files valid for this pass.
    - Write the world artifact to `dream/runs/05_finalize.world.md`.
 
 18. Verify `dream/runs/05_finalize.world.md` exists, is non-empty, and satisfies the local Acceptance gate in `dream/05-finalize-phase-world.md`.
@@ -195,7 +214,9 @@ Exact sequence
 
 20. Verify `dream/runs/05_finalize.md` exists, is non-empty, and satisfies the local Acceptance gate in `dream/05-finalize-phase-observe.md`.
 
-21. Return only the content of `dream/runs/05_finalize.md` to the user.
+21. run `dream/bin/cleansubs.sh` and verify if all sub-agent session got suspended, else repeat the step again.
+
+22. As the final setp only: `dream completed`
 
 Hard prohibitions
 - Do not skip, merge, rename, or invent phases.

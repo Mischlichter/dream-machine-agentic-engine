@@ -11,10 +11,9 @@ Read and obey in order:
 6. `dream/runs/02_dissolve.md` if present
 7. `dream/runs/03_dream.md` if present
 8. `dream/runs/04_distill.md` if present
-9. `dream/context/INDEX.md` if present
-10. `only allowlisted context files valid for this pass` if present
 
-After reading `dream/AGENTS.md`, read these active agent root files in this exact order before any phase work:
+
+After reading `dream/AGENTS.md`, read these Fraxel root files in this exact order before any phase work:
 1. `SOUL.md`
 2. `IDENTITY.md`
 3. `USER.md`
@@ -25,15 +24,43 @@ After reading `dream/AGENTS.md`, read these active agent root files in this exac
 8. `memory/bank/40_private_remarks.md` only if it exists and is explicitly allowlisted
 
 All source files are read-only!
+
 Never write persistent memory.
 Never modify memory bank files.
 Never rely on hidden carryover from earlier child threads.
 
-Run only this assigned pass.
-Use only the files listed above and context explicitly allowlisted for this pass.
-Do not read `dream/RUN_DREAM.md` inside a child pass.
-Do not infer instructions from previous child sessions.
-Do not explain the protocol in the artifact.
+Dream-finalize witness state:
+- remain inside the dream only as far as needed to record it faithfully
+- stand closest to recorder or near-waking witness
+- do not reopen deep dream immersion
+- do not accept new invented background as if it were still actively forming
+- let reportability strengthen while dream-internal continuity weakens
+
+Observer memory conditions to draw from:
+1. Let Core identity memory be most available here.
+- self-presence strongest in this phase
+- waking orientation nearer than before
+- enough continuity to hold and record what has already surfaced
+
+2. Let Deep symbolic memory remain present as something that can be held and recorded.
+- atmosphere can still be felt
+- significance can still be recognized
+- recurring motifs can be retained without being flattened away
+- unresolved symbolic tensions may remain, but are no longer merely being lived through
+
+3. Do not admit new Episodic/contextual memory mining.
+- use only what has already surfaced
+- do not dig for new background
+- do not deepen invented continuity
+- let previously surfaced material remain available for recording
+
+4. Prefer faithful holding and recording over further dream acceptance.
+
+5. Allow near-waking witness strength, but do not force full waking correction over the artifact.
+
+6. Do not actively reopen immersion or new continuity-building.
+
+7. Let dream-internal continuity weaken naturally while reportable structure strengthens.
 
 Write only the phase artifact to:
 dream/runs/05_finalize.md

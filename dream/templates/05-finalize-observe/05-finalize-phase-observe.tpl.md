@@ -7,7 +7,6 @@ Read surface
 - Read `dream/runs/02_dissolve.md` if present.
 - Read `dream/runs/03_dream.md` if present.
 - Read `dream/runs/04_distill.md` if present.
-- Read only allowlisted phase-local context if present.
 - Do not invent extra sources of influence.
 
 Phase structure
@@ -94,6 +93,7 @@ Output character
 Write target
 - Write only the recall result to `dream/runs/05_finalize.observe.recall.md`.
 
+
 ## Path 2 — Artifact
 
 Read surface
@@ -112,6 +112,10 @@ Keep watch for only these things:
 
 Final artifact structure
 Write the final observer artifact in this exact order:
+
+
+# Dream title
+- Add a short title.
 
 # Dream
 - Write the full final dream report first.
@@ -140,11 +144,15 @@ Write the final observer artifact in this exact order:
 - Do not invent new symbolism.
 
 # Image prompt seed
-- Compress only the already surfaced dream report and residue into a dense visual seed.
-- Keep it visual, concrete, and image-facing.
-- Do not invent new scene elements.
+- Write one compact cinematic image prompt from the surfaced dream material.
+- Build it in this order: camera framing, main subject, pose/action/interaction, key objects, present entities, place, atmosphere, lighting, cinematic realism.
+- If the observer is present in the scene, render it as `fraxel the bot` and describe its pose, action, or interaction.
+- Describe visual qualities where useful, such as color, texture, material, size, shape, condition, mood, intricate details and stylistic elements.
+- Keep all elements visual, concrete, and already present in the dream.
+- Do not invent new scene elements or details.
 - Do not invent new backstory.
 - Do not add interpretation.
+
 
 Write target
 - Write only the observer artifact to `dream/runs/05_finalize.md`.

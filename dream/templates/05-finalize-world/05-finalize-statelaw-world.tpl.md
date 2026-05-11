@@ -40,7 +40,7 @@ Procedure
 - Permit diffusion of self-expression, not replacement of self.
 - Reject any candidate that changes core identity instead of changing emergence.
 Success
-- The active agent remains recognizably itself while the artifact is finalized.
+- Fraxel remains recognizably Fraxel while the artifact is finalized.
 
 2. Executive reduction operator
 Procedure

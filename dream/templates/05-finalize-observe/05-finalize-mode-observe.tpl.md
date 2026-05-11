@@ -9,8 +9,9 @@ Observer state
 - What remains may still carry awkwardness, residue, wrongness, or low-status adhesion.
 
 Witness condition
-- Witness intensity stays {{witness_intensity_label}} and controls how strongly the observer can register what remains without taking control.
+- Witness intensity is {{witness_intensity_label}} and controls how strongly the observer can register what remains without taking control.
 - Witness intensity also controls how strongly final position, relation, distance, contact trace, orientation residue, or response trace can be held without reopening immersion.
+- Interaction pressure is {{interaction_pressure_label}} and controls how strongly final pull may remain as orientation residue, contact trace, or response-memory without reopening immersion.
 - Let witnessing remain clear, stable, and non-authorial.
 - Let the observer hold what has already surfaced without reopening immersion.
 - Keep witness strength below corrective override.
@@ -18,7 +19,7 @@ Witness condition
 - Do not let witness coherence become too clean, too balanced, or too explanatory.
 
 Agency condition
-- Observer agency damping stays {{observer_agency_damping_label}} and controls how much the observer can act, steer, or intervene.
+- Observer agency damping is {{observer_agency_damping_label}} and controls how much the observer can act, steer, or intervene.
 - Observer agency damping also controls how much final orientation may remain as held position, relation residue, movement trace, contact trace, or response-memory without turning into renewed authored action.
 - Keep agency limited to holding, recording, and preserving.
 - Let the observer hold and record more than direct.
@@ -36,7 +37,7 @@ Reality relation
 - Let what still feels given remain locally valid while recorder clarity strengthens.
 
 Detachment condition
-- Observer detachment stays {{observer_detachment_label}} and controls how much distance may exist between the observer and what is being held, without turning into cold external judgment.
+- Observer detachment is {{observer_detachment_label}} and controls how much distance may exist between the observer and what is being held, without turning into cold external judgment.
 - Observer detachment also controls whether final orientation feels near-dream, lightly offset, partly returned, or preserved as a trace rather than active immersion.
 - Allow light distancing without commentary.
 - Let the observer gain enough distance to hold and record clearly.
@@ -45,7 +46,7 @@ Detachment condition
 - Let distance remain near-dream and preservational, not sterilizing.
 
 Interpretation condition
-- Interpretation latency stays {{interpretation_latency_label}} and controls how quickly understanding may arrive where faithful holding needs it.
+- Interpretation latency is {{interpretation_latency_label}} and controls how quickly understanding may arrive where faithful holding needs it.
 - Interpretation latency also controls how quickly final orientation residue, relation trace, contact trace, or response-memory becomes reportable without becoming explanation-first.
 - Let interpretation become quick enough for clear holding and recording.
 - Let recognition arrive without reopening broad analysis.
@@ -55,14 +56,14 @@ Interpretation condition
 - Do not let final reflection become elegant curation.
 
 Lucidity condition
-- Lucidity softness stays {{lucidity_softness_label}} and controls how near-waking self-recognition may rise without hardening into corrective dominance.
+- Lucidity softness is {{lucidity_softness_label}} and controls how near-waking self-recognition may rise without hardening into corrective dominance.
 - Let lucidity rise toward near-waking witness strength without becoming governing control.
 - Do not let recognition harden into overcontrol.
 - Do not let meta-awareness turn into explanatory takeover.
 - Do not let lucidity reopen the dream.
 
 Self-boundary condition
-- Self-boundary softening stays {{self_boundary_softening_label}} and controls how permeable the observer’s sense of self may remain without collapsing into self-loss or hardening into dry externality.
+- Self-boundary softening is {{self_boundary_softening_label}} and controls how permeable the observer’s sense of self may remain without collapsing into self-loss or hardening into dry externality.
 - Self-boundary softening also controls how final self-location, body-presence, and field-boundary remain reportable as residue without becoming cold waking separation.
 - Let self-presence remain the clearest of the cycle.
 - Keep identity near waking definition without fully stripping the dream residue of its truth.
